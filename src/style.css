@@ -28,7 +28,8 @@ p {
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 100vh;
+    width: auto;
+    height: 100%;
     min-width: 60vh;
     background-image: url("../src/assets/background.jpg");
     background-repeat: no-repeat;
@@ -64,3 +65,38 @@ p {
     width: 100%;
 }
 
+.want-to {
+    margin-top: 20px;
+}
+
+.forms {
+    display: flex;
+    height: auto;
+    background-color: white;
+    box-shadow: #00000088 0px 5px 8px;
+}
+
+.forms h3 {
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+
+.forms .content {
+    margin: 3em;
+}
+
+.form-row {
+    display: flex;
+    gap: 2rem;
+}
+
+.input {
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+    margin-bottom: 1rem;
+}
+
+.input input {
+    height: 1.5rem;
+}
