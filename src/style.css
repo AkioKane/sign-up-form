@@ -120,14 +120,6 @@ p {
     border-color: rgb(72, 121,  72);
 }
 
-.input input:invalid + .error-msg{
-    display: block;
-}
-
-.error-msg {
-    display: none;
-}
-
 .send-form {
     margin-left: 3em;
 }
