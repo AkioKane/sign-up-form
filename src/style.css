@@ -117,7 +117,7 @@ p {
 }
 
 .input input:valid {
-
+    border-color: rgb(72, 121,  72);
 }
 
 .input input:invalid + .error-msg{
